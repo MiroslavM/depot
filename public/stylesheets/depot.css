@@ -42,3 +42,7 @@ img {
 	border-color: black;
 	margin-right: 4em;
 }
+
+#store .entry form, #store .entry form div{
+	display: inline;
+}
