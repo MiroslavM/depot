@@ -1,0 +1,5 @@
+page.replace_html('cart', render(@cart))
+
+page[:current_item].visual_effect :highlight,
+                                  :startcolor => "#33ff33",
+                                  :endcolor => "@113311"
