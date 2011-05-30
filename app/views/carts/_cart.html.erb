@@ -1,3 +1,4 @@
+<% unless cart.line_items.empty? %>
 <div class="cart_title" >Your Cart</div>
 
 <table>
@@ -10,3 +11,4 @@
 
 <%= button_to 'Empty cart', cart, :method => :delete,
 :confirm => 'Are you sure?' %>
+<% end %>
